@@ -19,9 +19,6 @@ android {
     }
 
     signingConfigs {
-
-        //...
-
         release {
             storeFile file('keystore.release')
             keyAlias System.getenv("CI_CD_KEY_ALIAS")
